@@ -1,0 +1,176 @@
+body{
+      margin: 0;
+      box-sizing: border-box;
+      height: 100vh;
+    }
+
+
+.container{
+      display: flex;
+      flex-direction: column;
+}
+
+
+
+
+.nav{
+      display: flex;
+      flex:1;
+      justify-content: space-between;
+      align-items: center;
+      height: 30px;
+      background: rgb(22, 19, 19);
+      color:whitesmoke;
+      opacity: 0.8;
+      position: sticky;
+      z-index: 999;
+      font-weight: bold;
+      font-size: 20px;
+}
+
+.logo{
+      margin-left: 30px;
+}
+
+.option-container > ul{
+      display: flex;
+      flex-direction:row;
+      justify-items: space-between;
+      list-style-type: none;
+      margin: 8px;
+}
+
+.option-container > ul > li{
+      margin: 10px;
+      font-weight: 700;
+      color: white;
+      font-size: 25px;
+      font: Monserrat;
+      margin: 30px;
+}
+
+.banner-img{
+      background-image: url('public/images/p1.jpg');
+      background-position: center;
+      background-size: cover;
+      height: 100vh; 
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      filter: brightness(50%);
+      padding-right: 5px;
+      padding-bottom: 90px;
+}
+
+.banner-text{
+      color: white;
+      text-align: center;
+      width: 500px;
+      position: absolute;
+      top:40%;
+      left: 30%;
+      z-index: 9999;
+}
+
+.banner-text > h1{
+      font: Monserrat;
+      font-weight: 900;
+}
+
+.banner-text > h3{
+      font: Monserrat;
+      font-weight: normal;
+}
+
+.banner-button > button{
+      top:50%;
+      width: 9rem;
+      height: 3rem;
+      border:3px solid white;
+      background-color: transparent;
+      color:white;
+      font-weight: bold;
+      margin:5px;
+      padding: 5px;
+}
+
+.banner-button > button:hover{
+      background-color: white;
+      color: black;
+}
+
+.content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      height: 50px;
+      top: 611px;
+}
+
+.boxes{
+      display: flex;
+}
+
+.boxes > div{
+      border:2px solid black;
+      height: 16rem;
+      width: 11rem;
+      margin:22px;
+}
+
+.boxes-styled{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 5px;
+}
+
+.boxes-styled > div > h2{
+      font-family: Montserrat;
+      font-weight: bold;
+}
+
+.learn-more-button{
+      border: 3px solid black;
+      background-color: transparent;
+      padding:5px;
+      font-family: Montserrat;
+      font-weight: bold;
+}
+
+.learn-more-button:hover{
+      background-color: black;
+      color: white;
+}
+
+.footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 60px;
+      margin: 250px 0px 0px 0px;
+      background-color: black;
+      color: white;
+      opacity:0.9;
+}
+
+.icons{
+      margin: 10px;
+}
+
+.icons > a{
+      margin: 10px;
+      text-decoration: none;
+}
+
+/*hover function */
+
+.copyright{
+      margin: 10px;
+      font-family: Montserrat;
+      font-weight: normal;
+}
+
